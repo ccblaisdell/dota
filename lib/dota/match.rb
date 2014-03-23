@@ -252,7 +252,7 @@ module Dota
       #
       # @return [Array<Hash>] an array of ability upgrades
       def upgrades
-        (0..raw_player['ability_upgrades'].length).map { |i| raw_player['ability_upgrades'][i] }
+        raw_player['ability_upgrades']
       end
     end
   end
