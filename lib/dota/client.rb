@@ -44,6 +44,14 @@ module Dota
       History.new(response) if response
     end
 
+    # List of matches by sequence
+    #
+    # @return [Dota::History] history object
+    def history_by_sequence_number(options = {})
+      response = run_request('GetMatchHistoryBySequenceNum', options)['result']
+      History.new(response) if response
+    end
+
     # All leagues list
     #
     # @return [Dota::League] league object
