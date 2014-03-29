@@ -38,13 +38,6 @@ Dota.live_leagues
 Dota.history
 ```
 
-#### Match history by sequence number ([GetMatchHistoryBySequenceNum](http://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistoryBySequenceNum) API call)
-
-```ruby
-Dota.history
-```
-
-
 #### View profiles ([GetPlayerSummaries](http://wiki.teamfortress.com/wiki/WebAPI/GetPlayerSummaries) API call)
 
 ```ruby
